@@ -4,6 +4,8 @@
 *Developed by: Mattia de' Michieli Vitturi*
 *Core code structure and functionality generated with assistance from Google AI Studio.*
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17177394.svg)](https://doi.org/10.5281/zenodo.17177394)
+
 ---
 
 
