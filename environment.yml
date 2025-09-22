@@ -1,0 +1,34 @@
+# Nome dell'ambiente Conda che verrà creato
+name: scholar_dashboard
+
+# Canali da cui Conda cercherà i pacchetti, in ordine di priorità.
+# conda-forge è spesso il più completo e aggiornato.
+channels:
+  - conda-forge
+  - defaults
+
+# Elenco delle dipendenze necessarie per il progetto
+dependencies:
+  # Specifichiamo la versione di Python per garantire la riproducibilità
+  - python=3.9
+
+  # Librerie per la dashboard e la manipolazione dei dati
+  - streamlit
+  - pandas
+  - numpy
+  
+  # Libreria per i grafici interattivi
+  - plotly
+
+  # Libreria per il grafo
+  - pyvis 
+
+  # Libreria per il machine learning (usata per il modello di regressione iniziale)
+  - scikit-learn
+
+  # La libreria specifica per interagire con Google Scholar
+  - scholarly
+  
+  # Linreria per worldcloud
+  - wordcloud    # <-- AGGIUNGI QUESTA RIGA
+  - matplotlib 
