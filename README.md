@@ -1,35 +1,52 @@
+Certamente! Un buon `README.md` è il biglietto da visita del tuo progetto. Ho aggiornato il file per riflettere tutte le nuove funzionalità e i miglioramenti che abbiamo aggiunto, inclusi i filtri avanzati, la gestione dei co-autori e il word cloud.
+
+Ho mantenuto il nome `ScholarAnalyzer` come hai richiesto.
+
+**Ricorda di sostituire `[Il Tuo Nome]` con il tuo nome reale e di aggiungere i link ai tuoi screenshot.**
+
+---
+
+### File `README.md` Aggiornato
+
+Copia e incolla questo testo direttamente in un file chiamato `README.md` nella radice del tuo progetto.
+
+```markdown
 # ScholarAnalyzer: Google Scholar Profile Analyzer
 
-*Developed by: Mattia de' Michieli Vitturi*
+*Developed by: [Il Tuo Nome]*
 *Core code structure and functionality generated with assistance from Google AI Studio.*
 
 ---
 
 > A powerful Streamlit dashboard to analyze, visualize, and forecast the academic impact of a Google Scholar profile.
 
-ScholarScope is an interactive web application that fetches data directly from a Google Scholar profile and provides in-depth insights into a researcher's publication history, citation trends, and collaborative network. It features advanced tools for data cleaning and forecasting, making it a comprehensive solution for academic analysis.
+ScholarAnalyzer is an interactive web application that fetches data directly from a Google Scholar profile and provides in-depth insights into a researcher's publication history, citation trends, and collaborative network. It features advanced tools for data cleaning and forecasting, making it a comprehensive solution for academic analysis.
 
 ## Key Features
 
 -   **Comprehensive Profile Dashboard**: At-a-glance view of key metrics like h-index, i10-index, and total citations, with a historical graph of citation trends.
--   **Detailed Publication List**: A searchable and filterable table of all publications.
--   **H-Index Forecasting**: Predicts the future evolution of an author's h-index using a model published in *Nature*.
+-   **Detailed Publication List**: A filterable table of all publications.
+-   **H-Index Forecasting**: Predicts the future evolution of an author's h-index using a model published in *Nature*, complete with a detailed disclaimer and visual chart.
 -   **Temporal Citation Analysis**: Discover which papers had the most impact within a specific date range.
 -   **Advanced Co-Author Analysis**:
-    -   Automatically identifies and merges similar co-author names (e.g., "J. Smith" and "John Smith").
-    -   Provides an interactive management interface to manually merge, un-merge, and save cleaned co-author data.
-    -   Visualizes the collaborative network with an interactive graph, highlighting the most frequent collaborators.
--   **Local Data Caching**: Fetched data is saved locally to ensure fast re-loading and to minimize requests to Google Scholar.
+    -   **Smart Merging**: Automatically identifies and merges similar co-author names with a user-configurable similarity threshold.
+    -   **Full Manual Control**: An intuitive interface to manually merge multiple names, un-merge incorrect associations, and even merge variants into the main scholar's name.
+    -   **Intelligent Network Graph**: Visualizes the collaborative network with dual filters (publication count and citation impact) and an intelligent default view to prevent clutter.
+-   **Dynamic Word Cloud**:
+    -   Visualize the key topics from publication titles.
+    -   Interactively filter by year range to see how research focus has evolved over time.
+    -   Customize the appearance with options for word count, color scheme, and custom stopwords.
+-   **Persistent Data Caching**: Fetched profile data and all co-author merging rules are saved locally to ensure fast re-loading and to minimize requests to Google Scholar.
 
 ## Screenshots
 
-*(It is highly recommended to add screenshots of your application here)*
+*(It is highly recommended to add screenshots of your application here to showcase its features)*
 
-| Profile Dashboard                                | Co-Author Network Graph                        |
-| ------------------------------------------------ | ---------------------------------------------- |
-| ![Profile Dashboard](path/to/profile_image.png)  | ![Co-Author Graph](path/to/graph_image.png)    |
-| **Temporal Analysis**                            | **Co-Author Management**                       |
-| ![Temporal Analysis](path/to/temporal_image.png) | ![Co-Author Merge](path/to/management_image.png) |
+| Co-Author Management Interface                      | Co-Author Network Graph                                 |
+| --------------------------------------------------- | ------------------------------------------------------- |
+| ![Co-Author Management](path/to/management_image.png) | ![Co-Author Graph](path/to/graph_image.png)             |
+| **Word Cloud with Filters**                         | **H-Index Forecast**                                    |
+| ![Word Cloud](path/to/wordcloud_image.png)          | ![H-Index Forecast Chart](path/to/forecast_image.png) |
 
 ## Setup and Installation
 
@@ -40,8 +57,8 @@ This project is managed using Conda for environment reproducibility.
 
 2.  **Clone the Repository**:
     ```bash
-    git clone https://github.com/[your-username]/ScholarScope.git
-    cd ScholarScope
+    git clone https://github.com/[your-username]/ScholarAnalyzer.git
+    cd ScholarAnalyzer
     ```
 
 3.  **Create the Conda Environment**:
@@ -66,13 +83,14 @@ The application should automatically open in your web browser.
 
 ## Core Functionality
 
-The dashboard is organized into several tabs:
+The dashboard is organized into six powerful tabs:
 
 1.  **Profile**: Displays general statistics and yearly citation trends.
 2.  **Publications**: A complete list of the author's publications.
-3.  **H-Index Forecast**: Provides 1, 5, and 10-year forecasts for the h-index based on the model by Acuna et al.
+3.  **H-Index Forecast**: Provides 1, 5, and 10-year forecasts for the h-index, including a detailed disclaimer about the model's limitations.
 4.  **Temporal Analysis**: Allows you to see which papers were most cited within a user-defined time window.
-5.  **Co-Authors**: Features a powerful suite for analyzing and cleaning co-author data, complete with an interactive network graph. Merging rules are saved locally for each profile.
+5.  **Co-Authors**: Features a comprehensive suite for analyzing and cleaning co-author data, with automatic and manual merging tools and a dual-filtered network graph.
+6.  **Word Cloud**: Generates a dynamic word cloud from publication titles, filterable by year to track the evolution of research topics.
 
 ## Attributions and References
 
@@ -82,7 +100,7 @@ The dashboard is organized into several tabs:
 
 ### AI-Assisted Development
 
-The Python code for this project, including its structure, features, and documentation, was generated with significant assistance from **Google AI Studio**.
+The Python code for this project was generated with significant assistance from **Google AI Studio**.
 
 ### Bibliographic Reference
 
