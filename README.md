@@ -1,11 +1,11 @@
 # ScholarAnalyzer: Google Scholar Profile Analyzer
+> A powerful Streamlit dashboard to analyze, visualize, and forecast the academic impact of a Google Scholar profile.
 
 *Developed by: Mattia de' Michieli Vitturi*
 *Core code structure and functionality generated with assistance from Google AI Studio.*
 
 ---
 
-> A powerful Streamlit dashboard to analyze, visualize, and forecast the academic impact of a Google Scholar profile.
 
 ScholarAnalyzer is an interactive web application that fetches data directly from a Google Scholar profile and provides in-depth insights into a researcher's publication history, citation trends, and collaborative network. It features advanced tools for data cleaning and forecasting, making it a comprehensive solution for academic analysis.
 
