@@ -88,4 +88,3 @@ The h-index forecast feature is based on the predictive model described in the f
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
-```
