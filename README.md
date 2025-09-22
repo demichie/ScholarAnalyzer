@@ -1,16 +1,3 @@
-Certamente! Un buon `README.md` è il biglietto da visita del tuo progetto. Ho aggiornato il file per riflettere tutte le nuove funzionalità e i miglioramenti che abbiamo aggiunto, inclusi i filtri avanzati, la gestione dei co-autori e il word cloud.
-
-Ho mantenuto il nome `ScholarAnalyzer` come hai richiesto.
-
-**Ricorda di sostituire `[Il Tuo Nome]` con il tuo nome reale e di aggiungere i link ai tuoi screenshot.**
-
----
-
-### File `README.md` Aggiornato
-
-Copia e incolla questo testo direttamente in un file chiamato `README.md` nella radice del tuo progetto.
-
-```markdown
 # ScholarAnalyzer: Google Scholar Profile Analyzer
 
 *Developed by: [Il Tuo Nome]*
