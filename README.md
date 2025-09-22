@@ -73,7 +73,7 @@ The dashboard is organized into six powerful tabs:
 
 ### Author
 
--   **[Il Tuo Nome]**
+-   **Mattia de' Michieli Vitturi**
 
 ### AI-Assisted Development
 
