@@ -25,16 +25,6 @@ ScholarAnalyzer is an interactive web application that fetches data directly fro
     -   Customize the appearance with options for word count, color scheme, and custom stopwords.
 -   **Persistent Data Caching**: Fetched profile data and all co-author merging rules are saved locally to ensure fast re-loading and to minimize requests to Google Scholar.
 
-## Screenshots
-
-*(It is highly recommended to add screenshots of your application here to showcase its features)*
-
-| Co-Author Management Interface                      | Co-Author Network Graph                                 |
-| --------------------------------------------------- | ------------------------------------------------------- |
-| ![Co-Author Management](path/to/management_image.png) | ![Co-Author Graph](path/to/graph_image.png)             |
-| **Word Cloud with Filters**                         | **H-Index Forecast**                                    |
-| ![Word Cloud](path/to/wordcloud_image.png)          | ![H-Index Forecast Chart](path/to/forecast_image.png) |
-
 ## Setup and Installation
 
 This project is managed using Conda for environment reproducibility.
