@@ -1,6 +1,6 @@
 # ScholarAnalyzer: Google Scholar Profile Analyzer
 
-*Developed by: [Il Tuo Nome]*
+*Developed by: Mattia de' Michieli Vitturi*
 *Core code structure and functionality generated with assistance from Google AI Studio.*
 
 ---
