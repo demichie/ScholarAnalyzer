@@ -247,7 +247,10 @@ if 'full_data' in st.session_state:
     with tabs[0]: # Profile Tab
         st.header(f"Profile of {main_author_name}")
         col1, col2 = st.columns([1, 4])
-        with col1: st.image(author_data['url_picture'], width=150)
+        try:
+            with col1: st.image(author_data['url_picture'], width=150)
+        except:
+            with col1: st.image("./scholarImage.png", width=150)
         with col2:
             st.write(f"**Affiliation:** {author_data.get('affiliation', 'N/A')}")
             st.write(f"**Interests:** {', '.join(author_data.get('interests', []))}")
