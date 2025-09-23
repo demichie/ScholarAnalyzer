@@ -37,7 +37,7 @@ This project is managed using Conda for environment reproducibility.
 
 2.  **Clone the Repository**:
     ```bash
-    git clone https://github.com/[your-username]/ScholarAnalyzer.git
+    git clone https://github.com/demichie/ScholarAnalyzer.git
     cd ScholarAnalyzer
     ```
 
